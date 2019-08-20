@@ -1,0 +1,14 @@
+<div class="card" style="width: 18rem;">
+    <a href="#/book-detail">
+        <img class="card-img-top"
+             src='{{book.gambar}}'
+             onerror="this.src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/200x200.jpg'"
+             alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{book.judul}}</h5>
+            <h3 class="card-text">{{book.harga}}</h3>
+            <p>{{book.author}}</p>
+            <a href="#" class="btn btn-success btn-sm">Buy</a>
+        </div>
+    </a>
+</div>

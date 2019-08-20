@@ -1,0 +1,15 @@
+<div class="row book-detail ng-scope" ng-controller="BookDetailController as book">
+	<div class="col-md-6">
+		<img onerror="this.src='https://via.placeholder.com/400x500'" src="...">
+	</div>
+	<div class="col-md-6">
+		<div class="mb-4">
+			<h3 class="ng-binding">Things That Move : English Learning With Mom &amp; Dad</h3>
+			<b class="ng-binding">Rp 75.000,00</b>
+		</div>
+
+		<p class="ng-binding">Moms &amp; Dads. Yuk, mari kita ketahui manfaat seri buku kamus bergambar Things That Move English Learning Books untuk mengenal kosa kata dalam bahasa inggris mengenai anggota tubuh. English Learning Books ini dapat digunakan sebagai sarana pengganti gadget agar buah hati kita terhindar dari bahaya radiasi sinar layar, dapat juga menjadi sarana mempererat ikatan atau bonding Moms &amp; Dads dengan si buah hati. Yuk, koleksi 6 judul seri buku English Learning books ini Moms &amp; Dads</p>
+
+		<button type="button" class="btn btn-success btn-buy" ng-click="book.buy(book.book.id)">Buy</button>
+	</div>
+</div>
